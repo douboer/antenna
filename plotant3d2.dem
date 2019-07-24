@@ -1,0 +1,110 @@
+
+#set size square
+set time
+set clip
+set xtics axis nomirror
+set ytics axis nomirror
+
+set angles degrees
+set mapping spherical
+
+unset border
+unset param
+
+set zeroaxis
+
+set zrange[-50:50]
+set title "HTDBS196512.txt"
+splot "HTDBS196512.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTDBS196512.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2 
+pause -1 "Hit return to continue"
+
+set title "HTDBS196515_N.txt"
+splot "HTDBS196515_N.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTDBS196515_N.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTDBS196517_N.txt"
+splot "HTDBS196517_N.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTDBS196517_N.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTDW18194512.txt"
+splot "HTDW18194512.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTDW18194512.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTDW18196510.txt"
+splot "HTDW18196510.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTDW18196510.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTQ-1.9-4.5.txt"
+splot "HTQ-1.9-4.5.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTQ-1.9-4.5.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTQ-1.9-7.0_10.txt"
+splot "HTQ-1.9-7.0_10.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTQ-1.9-7.0_10.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTSX-1.9-13.txt"
+splot "HTSX-1.9-13.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTSX-1.9-13.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTQ-1.9-7.0_20.txt"
+splot "HTQ-1.9-7.0_20.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTQ-1.9-7.0_20.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTQ-1.9-7.2.txt"
+splot "HTQ-1.9-7.2.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTQ-1.9-7.2.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTQ-1.9-8.5_20-NO.2-J7_HV1900.txt"
+splot "HTQ-1.9-8.5_20-NO.2-J7_HV1900.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTQ-1.9-8.5_20-NO.2-J7_HV1900.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTQ-1.9-9_0.txt"
+splot "HTQ-1.9-9_0.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTQ-1.9-9_0.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTQ-1.9-9_10.txt"
+splot "HTQ-1.9-9_10.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTQ-1.9-9_10.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTQ-1.9-9_20.txt"
+splot "HTQ-1.9-9_20.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTQ-1.9-9_20.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTQ-1.9-9_5.txt"
+splot "HTQ-1.9-9_5.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTQ-1.9-9_5.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTQ-2.445-8.0_10.txt"
+splot "HTQ-2.445-8.0_10.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTQ-2.445-8.0_10.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTQ-2.4-8.0_10.txt"
+splot "HTQ-2.4-8.0_10.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTQ-2.4-8.0_10.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTQ-2.4-8.0_double.txt"
+splot "HTQ-2.4-8.0_double.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTQ-2.4-8.0_double.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"
+
+set title "HTQ-2.49-8.0_10.txt"
+splot "HTQ-2.49-8.0_10.txt" every ::10::369  u 1:(0.0):2 t "horizontal" with lines lw 2,\
+      "HTQ-2.49-8.0_10.txt" every ::371::1000 u (0.0):1:2 t "vertical" with lines lw 2
+pause -1 "Hit return to continue"

@@ -1,0 +1,15 @@
+
+every:
+plot "my.dat" every A:B:C:D:E:F
+A: line increment
+B: data block increment
+C: The first line
+D: The first data block
+E: The last line
+F: The last data block
+
+horizontal - ::10:::369:
+vertical   - ::371:::730:
+
+::0::3600
+

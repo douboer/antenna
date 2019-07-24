@@ -1,0 +1,25 @@
+
+set title "Antenna Pattern"
+set xlabel "Azimuth"
+set ylabel "dBm"
+
+set xtics axis nomirror
+set ytics axis nomirror
+
+set grid polar 
+set polar
+set angle degrees
+
+unset rtics
+set samples 500
+set zeroaxis
+
+set style data line
+set xrange [-50:50]
+set yrange [-50:50]
+set rrange [0:50]
+set trange [*:*]
+
+plot 'test.txt' using 1:2
+
+pause -1 "Hit <cr> to continue"

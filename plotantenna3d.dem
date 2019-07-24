@@ -1,0 +1,21 @@
+
+#set dummy u,v
+set angles degrees
+set parametric
+#set view 60, 136, 1.22, 1.26
+#set samples 64,64
+#set isosamples 13,13
+set mapping spherical
+
+set zrange[-40:40]
+#set border 0
+set title "Labels colored by GeV plotted in spherical coordinate system"
+unset hidden
+
+
+#splot "yagi4.txt" using sin($1),cos($2),3 notitle with lines lt 5
+#splot "yagi4.txt" u 1:2:3  with pm3d
+splot "yagi41.txt" u 1:2:3 notitle with lines lt 5
+#splot cos(u)*cos(v),cos(u)*sin(v),sin(u) notitle with lines lt 5
+
+pause -1 "Hit return to continue"
