@@ -3,7 +3,7 @@
 
 -- chengan douboer@gmail.com
 
-![image](https://github.com/douboer/antenna/blob/master/docs/img/103d.PNG){:height="600" width="900"}
+![image](https://github.com/douboer/antenna/blob/master/docs/img/103d.PNG)
 
 ![image](https://github.com/douboer/antenna/blob/master/docs/img/2.PNG)
 
